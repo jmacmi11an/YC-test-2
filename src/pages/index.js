@@ -4,7 +4,7 @@ import UserForm from '../components/Form';
 
 export default function Home() {
   return (
-    <div>
+    <div style={{width: "100%"}}>
       <Header />
       <div class="container" style={{fontFamily: "montserrat", backgroundImage: 'url("../../../public/Background.jpg")'}}>
         <div>

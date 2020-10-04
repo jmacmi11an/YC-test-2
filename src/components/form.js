@@ -24,8 +24,8 @@ class UserForm extends React.Component {
 
   render() {
     return (
-      <div style={{maxWidth: '46%', display: 'inline-block', padding: '1em', fontFamily: 'montserrat', color: '#777'}}>
-        <form style={{margin: '3em', padding: '1em', border: '1px solid gray'}}>
+      <div style={{maxWidth: '46%', display: 'inline-block', paddingBottom: '1em', margin: '3em', fontFamily: 'montserrat', color: '#777', border: '1px solid gray'}}>
+        <form style={{margin: '1em', padding: '1em'}}>
 
           <div style={{margin: '1em', width: "40%", display: "inline-block"}}>
             <label for="firstName">First name</label>
@@ -43,7 +43,7 @@ class UserForm extends React.Component {
           </div>
 
           <div style={{margin: '1.5em'}}>
-            <button style={{color: "white", fontWeight: '700', backgroundColor: 'black', borderRadius: '4px', float: 'right', height: '2em'}}>SUBMIT</button>
+            <button style={{color: "white", fontWeight: '700', backgroundColor: 'black', borderRadius: '3px', float: 'right', height: '2em', padding: '9px 20px 24px 20px', letterSpacing: '2px'}}>SUBMIT</button>
           </div>
         </form>
       </div>

@@ -1,5 +1,13 @@
 Quick git push test:
 
+What I learned from this test:
+1. I haven't yet figured out how to add a background image in Gatsby using graphql.
+2. I haven't yet figured out how to use flickity to create a carousel in Gatsby.
+3. As of now, I haven't figured out how to change the class of different nav bar anchors so that the highlight changes depending on what page you're on.
+4. Wanting to avoid raw CSS, and without looking into it too much, I've done the CSS in a pretty overwritten (not DRY) way. I'd prefer to have a css page somewhere so that I don't have to independently style every single <a> for example.
+5. Adding google fonts took longer than I want.
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

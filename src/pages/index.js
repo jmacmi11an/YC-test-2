@@ -28,6 +28,7 @@ export default Home;
 // <BackgroundImage
 //   fluid={props.data.indexImage.childImageSharp.fluid}
 // >
+///////////////// This is where everything after the Header would go ///////////////
 // </BackgroundImage>
 
 

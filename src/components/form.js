@@ -3,8 +3,8 @@ import React from 'react';
 
 // might extend React.Component instead //
 class UserForm extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       firstName: '',
       lastName: '',
@@ -14,26 +14,35 @@ class UserForm extends React.Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
-    console.log(event)
+
+  handleChange(event){
+    this.setState({
+      [event.target.name] : event.target.value
+    })
   }
+
 
   render() {
     return (
-      <div style={{backgroundColor: 'green', marginRight: '3em', height: '300px', width: '500px', display: 'block'}}>
-        <form style={{marginRight: '3em', height: '400px', width: '500px'}}>
+      <div style={{height: '300px', width: '500px', maxWidth: '46%', display: 'inline-block', padding: '1em', fontFamily: 'montserrat'}}>
+        <form style={{margin: '3em', backgroundColor: '#ddd', padding: '1em'}}>
 
-          <label for="firstName">First name</label>
-          <input value={this.state.value} handleChange={this.handleChange} type="text" id="fname" name="fname" required/>
+          <div style={{margin: '1em', width: "40%", display: "inline-block"}}>
+            <label for="firstName">First name</label>
+            <input name="firstName" value={this.state.value} onChange={this.handleChange} type="text" id="fname" required/>
+          </div>
 
-          <label for="lname">Last name</label>
-          <input type="text" id="lname" name="lname" required/>
+          <div style={{margin: '1em', width: "40%", display: "inline-block"}}>
+            <label for="lname">Last name</label>
+            <input name="lastName" value={this.state.value} onChange={this.handleChange} type="text" id="lname" required/>
+          </div>
 
-          <label for="email">Email address</label>
-          <input type="text" id="email" name="email" required/>
+          <div style={{margin: '1em', }}>
+            <label for="email">Email address</label>
+            <input style={{width: '100%'}} name="email" value={this.state.value} onChange={this.handleChange} type="email" id="email" required/>
+          </div>
 
-          <button>SUBMIT</button>
+          <button style={{color: "white", backgroundColor: 'black', borderRadius: '4px', }}>SUBMIT</button>
         </form>
       </div>
   )}

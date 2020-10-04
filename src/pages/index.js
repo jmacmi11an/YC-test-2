@@ -11,7 +11,7 @@ import BackgroundImage from 'gatsby-background-image';
 const Home = () => (
   <div style={{width: "100%"}}>
     <Header />
-    <div class="container" style={{fontFamily: "montserrat", display: "inline-block", width: "40%", padding: "3em"}}>
+    <div class="container" style={{fontFamily: "montserrat", display: "inline-block", width: "40%", padding: "0em 3em"}}>
         <div>
           <h1 style={{letterSpacing: '6px'}}>DOLOR SIT AMET</h1>
           <p style={{color: '#999'}}>Vestibulum tempus eros nec dignissim convallis.</p>

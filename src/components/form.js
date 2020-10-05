@@ -24,7 +24,7 @@ class UserForm extends React.Component {
 
   render() {
     return (
-      <div style={{maxWidth: '40%', display: 'inline-block', paddingBottom: '1em', margin: '3em', fontFamily: 'montserrat', color: '#777', border: '1px solid gray'}}>
+      <div style={{maxWidth: '40%', display: 'inline-block', paddingBottom: '1em', margin: '3em', fontFamily: 'montserrat', color: '#777', backgroundColor: 'rgba(255,255,255,0.9)'}}>
         <form style={{margin: '1em', padding: '1em'}}>
 
           <div style={{margin: '1em', width: "40%", display: "inline-block"}}>

@@ -14,7 +14,8 @@ export default function Header(){
     margin: "0 auto",
     border: "0"
   }}>
-    <a style={{textDecoration: "none", color: 'black', fontWeight: '600'}} id="title" href="/">LOREM IPSUM</a>
+    <Link to="/" style={{textDecoration: "none", color: 'black', fontWeight: '600'}} id="title">LOREM IPSUM</Link>
+    
     <div style={{display: "inline-block", float: "right"}}>
       <Link to="/" style={{textDecoration: "none", color: 'black', padding: '1em'}}>Home</Link>
       <Link to="/about" style={{textDecoration: "none", color: 'black', padding: '1em', borderBottom: "2px solid orange"}}>About</Link>

@@ -29,17 +29,17 @@ class UserForm extends React.Component {
 
           <div style={{margin: '1em', width: "40%", display: "inline-block"}}>
             <label for="firstName">First name</label>
-            <input style={{marginTop: '5px', padding: '5px', backgroundColor: '#fff', borderRadius: '2px', border: '1px solid gray', }} name="firstName" value={this.state.value} onChange={this.handleChange} type="text" id="fname" required/>
+            <input style={{marginTop: '5px', padding: '5px', backgroundColor: 'rgba(240,240,240,0.6)', borderRadius: '2px', border: '1px solid gray', }} name="firstName" value={this.state.value} onChange={this.handleChange} type="text" id="fname" required/>
           </div>
 
           <div style={{margin: '1em', width: "40%", display: "inline-block"}}>
             <label for="lname">Last name</label>
-            <input style={{marginTop: '5px', padding: '5px', backgroundColor: '#fff', borderRadius: '2px', border: '1px solid gray', }} name="lastName" value={this.state.value} onChange={this.handleChange} type="text" id="lname" required/>
+            <input style={{marginTop: '5px', padding: '5px', backgroundColor: 'rgba(240,240,240,0.6)', borderRadius: '2px', border: '1px solid gray', }} name="lastName" value={this.state.value} onChange={this.handleChange} type="text" id="lname" required/>
           </div>
 
           <div style={{margin: '1em'}}>
             <label for="email">Email address</label>
-            <input style={{marginTop: '5px', padding: '5px', backgroundColor: '#fff', borderRadius: '2px', border: '1px solid gray', width: '90%'}} name="email" value={this.state.value} onChange={this.handleChange} type="email" id="email" required/>
+            <input style={{marginTop: '5px', padding: '5px', backgroundColor: 'rgba(240,240,240,0.6)', borderRadius: '2px', border: '1px solid gray', width: '90%'}} name="email" value={this.state.value} onChange={this.handleChange} type="email" id="email" required/>
           </div>
 
           <div style={{margin: '1.5em'}}>

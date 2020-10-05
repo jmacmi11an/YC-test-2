@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'gatsby';
+
+
 
 export default function Header(){
   return (
@@ -13,8 +16,8 @@ export default function Header(){
   }}>
     <a style={{textDecoration: "none", color: 'black', fontWeight: '600'}} id="title" href="/">LOREM IPSUM</a>
     <div style={{display: "inline-block", float: "right"}}>
-      <a style={{textDecoration: "none", color: 'black', padding: '1em'}} href="/">Home</a>
-      <a style={{textDecoration: "none", color: 'black', padding: '1em', borderBottom: "2px solid orange"}} href="/about">About</a>
+      <Link to="/" style={{textDecoration: "none", color: 'black', padding: '1em'}}>Home</Link>
+      <Link to="/about" style={{textDecoration: "none", color: 'black', padding: '1em', borderBottom: "2px solid orange"}}>About</Link>
     </div>
   </nav>
 )}

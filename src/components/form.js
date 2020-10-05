@@ -24,7 +24,7 @@ class UserForm extends React.Component {
 
   render() {
     return (
-      <div style={{maxWidth: '46%', display: 'inline-block', paddingBottom: '1em', margin: '3em', fontFamily: 'montserrat', color: '#777', border: '1px solid gray'}}>
+      <div style={{maxWidth: '40%', display: 'inline-block', paddingBottom: '1em', margin: '3em', fontFamily: 'montserrat', color: '#777', border: '1px solid gray'}}>
         <form style={{margin: '1em', padding: '1em'}}>
 
           <div style={{margin: '1em', width: "40%", display: "inline-block"}}>
@@ -37,9 +37,9 @@ class UserForm extends React.Component {
             <input style={{marginTop: '5px', padding: '5px', backgroundColor: '#fff', borderRadius: '2px', border: '1px solid gray', }} name="lastName" value={this.state.value} onChange={this.handleChange} type="text" id="lname" required/>
           </div>
 
-          <div style={{margin: '1em', }}>
+          <div style={{margin: '1em'}}>
             <label for="email">Email address</label>
-            <input style={{marginTop: '5px', padding: '5px', backgroundColor: '#fff', borderRadius: '2px', border: '1px solid gray', width: '94%'}} name="email" value={this.state.value} onChange={this.handleChange} type="email" id="email" required/>
+            <input style={{marginTop: '5px', padding: '5px', backgroundColor: '#fff', borderRadius: '2px', border: '1px solid gray', width: '90%'}} name="email" value={this.state.value} onChange={this.handleChange} type="email" id="email" required/>
           </div>
 
           <div style={{margin: '1.5em'}}>
